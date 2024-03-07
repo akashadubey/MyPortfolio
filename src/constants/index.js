@@ -15,6 +15,7 @@ import {
   tutefox,
   driveway,
   threejs,
+  publicissapient,
 } from "../assets";
 
 export const navLinks = [
@@ -87,12 +88,25 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Experience Engineer L2",
+    company_name: "Publicis Sapient",
+    icon: publicissapient,
+    iconBg: "#FFFFFF",
+    date: "January 2024 - Present",
+    points: [
+      "Developing and maintaining web applications using Next.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
   {
     title: "Associate Developer",
     company_name: "Sapient Razorfish (Publicis Groupe)",
     icon: publicis,
     iconBg: "#FFFFFF",
-    date: "January 2023 - Present",
+    date: "January 2023 - December 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
